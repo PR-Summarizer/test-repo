@@ -9,6 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: AI PR Review
-        uses: aryannaithani/ai-review-fin@main
+        uses: aryannaithani/ai-review-fin@v1.3.2
         with:
           gemini_api_key: ${{ secrets.GEMINI_API_KEY }}
