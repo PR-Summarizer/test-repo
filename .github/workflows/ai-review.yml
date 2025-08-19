@@ -11,5 +11,4 @@ jobs:
       - name: AI PR Review
         uses: aryannaithani/ai-review-fin@main
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
           gemini_api_key: ${{ secrets.GEMINI_API_KEY }}
